@@ -1,5 +1,3 @@
-
-
 function Monster(name, strength, dexterity, constitution, wisdom, intelligence, charisma) {
     this.name = name;
     this.strength = strength;
@@ -75,6 +73,16 @@ function randomNumber(){
         }
         list.push(gamePlayer);
         updateTable(list.length, gamePlayer);
+        //clear function
+        Name.value = "";
+        strength.value = "";
+        dexterity.value = "";
+        constitution.value = "";
+        wisdom.value = "";
+        intelligence.value = "";
+        charisma.value = "";
+        playerClass.value = "";
+        
 
         console.log("This is the charisma" + list[0].charisma);
 }
@@ -130,5 +138,5 @@ var list = [];
                     area.value += list[i] + "\n";
                 }
             }
- 
+     
 

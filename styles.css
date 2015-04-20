@@ -4,20 +4,20 @@
 	box-shadow: 10px 10px 5px #888888;
 	border:1px solid #00ffff;
 	
-	-moz-border-radius-bottomleft:25px;
-	-webkit-border-bottom-left-radius:25px;
+	border-radius-bottomleft:25px;
+	border-bottom-left-radius:25px;
 	border-bottom-left-radius:25px;
 	
-	-moz-border-radius-bottomright:25px;
-	-webkit-border-bottom-right-radius:25px;
+	border-radius-bottomright:25px;
+	border-bottom-right-radius:25px;
 	border-bottom-right-radius:25px;
 	
-	-moz-border-radius-topright:25px;
-	-webkit-border-top-right-radius:25px;
+	border-radius-topright:25px;
+	border-top-right-radius:25px;
 	border-top-right-radius:25px;
 	
-	-moz-border-radius-topleft:25px;
-	-webkit-border-top-left-radius:25px;
+	border-radius-topleft:25px;
+	border-top-left-radius:25px;
 	border-top-left-radius:25px;
 }.tableOne table{
     border-collapse: collapse;
@@ -26,22 +26,22 @@
 	height:100%;
 	margin:0px;padding:0px;
 }.tableOne tr:last-child td:last-child {
-	-moz-border-radius-bottomright:25px;
-	-webkit-border-bottom-right-radius:25px;
+	border-radius-bottomright:25px;
+	border-bottom-right-radius:25px;
 	border-bottom-right-radius:25px;
 }
 .tableOne table tr:first-child td:first-child {
-	-moz-border-radius-topleft:25px;
-	-webkit-border-top-left-radius:25px;
+	border-radius-topleft:25px;
+	border-top-left-radius:25px;
 	border-top-left-radius:25px;
 }
 .tableOne table tr:first-child td:last-child {
-	-moz-border-radius-topright:25px;
-	-webkit-border-top-right-radius:25px;
+	border-radius-topright:25px;
+	border-top-right-radius:25px;
 	border-top-right-radius:25px;
 }.tableOne tr:last-child td:first-child{
-	-moz-border-radius-bottomleft:25px;
-	-webkit-border-bottom-left-radius:25px;
+	border-radius-bottomleft:25px;
+	border-bottom-left-radius:25px;
 	border-bottom-left-radius:25px;
 }.tableOne tr:hover td{
 	
